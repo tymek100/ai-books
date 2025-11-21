@@ -1,0 +1,28 @@
+[project]
+name = "rag-books-backend"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Tymek", email = "t.ilczyszyn@gmail.com"},
+]
+dependencies = [
+    "langchain-community>=0.4.1",
+    "langchain-openai>=1.0.3",
+    "python-dotenv>=1.2.1",
+    "faiss-cpu>=1.13.0",
+    "fastapi>=0.121.3",
+    "httpx>=0.28.1",
+    "uvicorn>=0.38.0"
+]
+requires-python = "==3.13.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+[tool.pdm]
+distribution = false
+
+[tool.poetry]
+package-mode = false
+
+[tool.pdm.scripts]
+dev = "uvicorn app.main:app --reload --port 8000"
