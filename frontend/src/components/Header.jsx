@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Header() {
   return (
     <header className="mb-6 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
