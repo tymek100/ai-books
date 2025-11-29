@@ -1,4 +1,3 @@
-// src/hooks/useBookSearch.js
 import { useState } from "react";
 import { searchBooks } from "../api/books";
 
