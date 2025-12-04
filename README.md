@@ -8,6 +8,9 @@ The stack:
 - **Frontend**: React + Vite (SPA talking to the FastAPI API)  
 - **Infra**: Docker Compose (backend + frontend)
 
+## Live Demo
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Online-green)](https://your-demo-url.com)
+
 ## How it works
 
 High level flow:
