@@ -9,7 +9,7 @@ The stack:
 - **Infra**: Docker Compose (backend + frontend)
 
 ## Live Demo
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Online-green)](https://your-demo-url.com)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Online-green)](https://ai-books-1.onrender.com/)
 
 ## How it works
 
